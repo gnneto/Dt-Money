@@ -7,7 +7,7 @@ export function Transactions() {
     <div>
       <Header />
       <Summary />
-
+ 
       <TransactionsContainer>
         <TransactionsTable>
           <tbody>
