@@ -5,9 +5,9 @@ import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styl
 export function Transactions() {
   return (
     <div>
-      <Header />
+      <Header /> 
+      
       <Summary />
- 
       <TransactionsContainer>
         <TransactionsTable>
           <tbody>
