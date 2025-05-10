@@ -1,0 +1,29 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "description": "Desenvolvimento de site",
+            "type": "income",
+            "category": "Venda",
+            "price": 14000,
+            "createdAt": "2025-05-09T23:41:06.109Z"
+        },
+        {
+            "id": 2,
+            "description": "Hamburger",
+            "type": "outcome",
+            "category": "Alimentação",
+            "price": 40,
+            "createdAt": "2025-05-09T23:50:06.109Z"
+        }
+        ,
+        {
+            "id": 3,
+            "description": "Curso",
+            "type": "outcome",
+            "category": "Educação",
+            "price": 2100,
+            "createdAt": "2025-05-09T23:50:06.109Z"
+        }
+    ]
+}
