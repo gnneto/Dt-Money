@@ -15,8 +15,7 @@
             "category": "Alimentação",
             "price": 40,
             "createdAt": "2025-05-09T23:50:06.109Z"
-        }
-        ,
+        },
         {
             "id": 3,
             "description": "Curso",
@@ -24,6 +23,86 @@
             "category": "Educação",
             "price": 2100,
             "createdAt": "2025-05-09T23:50:06.109Z"
+        },
+        {
+            "id": 4,
+            "description": "Freelance de design",
+            "type": "income",
+            "category": "Serviço",
+            "price": 3000,
+            "createdAt": "2025-05-10T10:00:00.000Z"
+        },
+        {
+            "id": 5,
+            "description": "Supermercado",
+            "type": "outcome",
+            "category": "Alimentação",
+            "price": 350,
+            "createdAt": "2025-05-10T12:30:00.000Z"
+        },
+        {
+            "id": 6,
+            "description": "Venda de notebook",
+            "type": "income",
+            "category": "Venda",
+            "price": 2500,
+            "createdAt": "2025-05-10T14:15:00.000Z"
+        },
+        {
+            "id": 7,
+            "description": "Assinatura Netflix",
+            "type": "outcome",
+            "category": "Entretenimento",
+            "price": 55,
+            "createdAt": "2025-05-10T15:00:00.000Z"
+        },
+        {
+            "id": 8,
+            "description": "Salário",
+            "type": "income",
+            "category": "Trabalho",
+            "price": 5000,
+            "createdAt": "2025-05-10T16:00:00.000Z"
+        },
+        {
+            "id": 9,
+            "description": "Compra de livros",
+            "type": "outcome",
+            "category": "Educação",
+            "price": 120,
+            "createdAt": "2025-05-10T17:00:00.000Z"
+        },
+        {
+            "id": 10,
+            "description": "Venda de bicicleta",
+            "type": "income",
+            "category": "Venda",
+            "price": 800,
+            "createdAt": "2025-05-10T18:00:00.000Z"
+        },
+        {
+            "id": 11,
+            "description": "Restaurante",
+            "type": "outcome",
+            "category": "Alimentação",
+            "price": 200,
+            "createdAt": "2025-05-10T19:00:00.000Z"
+        },
+        {
+            "id": 12,
+            "description": "Projeto de aplicativo",
+            "type": "income",
+            "category": "Serviço",
+            "price": 6000,
+            "createdAt": "2025-05-10T20:00:00.000Z"
+        },
+        {
+            "id": 13,
+            "description": "Cinema",
+            "type": "outcome",
+            "category": "Entretenimento",
+            "price": 45,
+            "createdAt": "2025-05-10T21:00:00.000Z"
         }
     ]
 }
