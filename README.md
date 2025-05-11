@@ -1,54 +1,50 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DT Money é uma aplicação de controle financeiro desenvolvida em React, TypeScript e Vite. O objetivo do projeto é permitir o gerenciamento de transações financeiras, possibilitando o cadastro, listagem e busca de entradas e saídas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Listagem de transações (entradas e saídas)
+- Busca de transações por descrição
+- Cálculo automático de saldo, entradas e saídas
+- Cadastro de novas transações via modal
+- Interface responsiva e moderna
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Styled Components](https://styled-components.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [Phosphor Icons](https://phosphoricons.com/)
+- [Radix UI Dialog](https://www.radix-ui.com/primitives/docs/components/dialog)
+- [JSON Server](https://github.com/typicode/json-server) (fake API)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Como rodar o projeto
+
+1. **Clone o repositório**
+   ```bash
+    git clone https://github.com/gnneto/Dt-Money.git
+    cd Dt-Money
+    ```
+2. **Instale as dependências**
+   ```bash
+    npm install
+   ```
+3. **Inicie o servidor de desenvolvimento**
+    ```bash
+    npm run dev:server
+    ```
+    O servidor estará disponível em `http://localhost:3333`.
+   
+5. **Inicie a aplicação:**
+```bash
+npm run dev
 ```
+## Observações
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- O projeto utiliza o JSON Server apenas para simular uma API REST.
+- As transações são salvas em `/server.json`.
+- O layout é inspirado em aplicações modernas de controle financeiro.
